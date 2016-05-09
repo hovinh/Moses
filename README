@@ -1,0 +1,9 @@
+This is a source code for splitting files into "test" and "data" with 10-fold technique for preparing data running MOSES
+
+Files need for running:
++ "arg.txt": 1st line contains directory to files you want to split. 2nd line contains size of each kind of corpus in these file.
++ "getFile.py": python code for splitting files.
++ data files for splitting. In my sample, they are "source.txt" and "target.txt". Each file is a combination of 2 corpus with sizes are 10 and 5.
+Try to run the sample files and see the effect.
+
+
