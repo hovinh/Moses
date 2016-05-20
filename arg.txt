@@ -1,2 +1,19 @@
+#### If you use split or merge, delete all other lines, even comment
+
+### Example for splitting files for training and testing with 10-fold###
+# First line: list of files you want to split, can be > 2
+# Second line: if your corpora contains a lot of different corpus, you need to tell size of each of them in exact order 
+# For example, my corpus contains 10 lines from corpus A and 5 lines from corpus B.
+# If it is only single corpora, then write the total number of lines in the corpus
 source.txt target.txt
 10 5
+
+### Example for merge files ###
+#Example1:
+auto
+src_trg.dict.A3.final.part00 0 7
+result.A3.final
+#Example2:
+manual
+asd.txt wer.txt
+result.txt
